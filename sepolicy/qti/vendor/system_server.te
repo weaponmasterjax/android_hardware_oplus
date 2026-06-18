@@ -1,2 +1,6 @@
 rw_dir_file(system_server, vendor_proc_oplus_scheduler)
 rw_dir_file(system_server, vendor_proc_tri_state_key)
+
+# OPlus secure common and charger proc entries read by system_server
+r_dir_file(system_server, vendor_proc_oppo_secure_common_file)
+r_dir_file(system_server, vendor_proc_charger)
